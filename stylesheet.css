@@ -7,10 +7,21 @@ body{
     height: 100vh;
 }
 
-#display_images{
-         width: 375px;
-         height: 211px;
-         border: 1px solid black;
-         background-position: center;
-         background-size: cover;
+#displayed_image {
+    width: 100%;
+    /* Make container responsive */
+    height: 300px;
+    /* Adjust height as needed */
+    background-size: cover;
+    /* Cover the entire container */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent tiling */
+    border: 1px solid #ddd;
+    /* Optional border */
+    border-radius: 8px;
+    /* Optional rounded corners */
 }
+
+/* Alternatively, use background-size: contain; if you prefer */
